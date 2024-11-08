@@ -1,0 +1,109 @@
+/* Universal selector */
+
+*{
+    font-family: 'Gill Sans';
+    letter-spacing : 5px;
+}
+
+/* Element selector */
+
+h1,h3{
+    color : rgba(225, 90, 0, 0.858)
+}
+
+/* Id selector  */
+
+#login{
+    background-color: brown;
+    color: white;
+}
+
+/* Class slector */
+
+.upvote{
+    background-color: green;
+    color : white;
+}
+
+/* Descendant seletor */
+
+p a {
+    color : white ;
+    background-color : orange;
+}
+nav ul li{
+    color :rgba(225, 90, 0, 0.858);
+}
+.red a {
+    background-color :rgba(225, 90, 0, 0.858);
+}
+
+/* Adjacent combinator */
+
+p + h3{
+   text-decoration : underline;
+}
+.upvote + button{
+    background-color :rgb(95, 95, 163);
+}
+
+/* Child combinator */
+
+div > input {
+    background-color : rgb(206, 206, 206);
+}
+
+/* Attribute selector */
+
+input[type ="text"]{
+    color : red;
+}
+input[type ="password"]{
+    color: blue;
+}
+input[ type ]{
+    background-color : rgb(232, 202, 202);
+}
+/* Pseudo Class */
+  /* hover  (when we move cursor to button)*/
+  button:hover{
+    background-color : black;
+    color :red;
+ }
+ h3:hover{
+      text-decoration : overline;
+ } 
+    /*active (when we tap the button)*/
+ button:active{
+     background-color : pink;
+ }
+ p:active{
+     font-weight : bold ;
+     color : green;
+ }
+ /*checked (used for radio buttons)*/
+ 
+ input[type = "radio"]:checked + label{
+     color : red;
+      font-weight: bold;
+  }
+  /*nth-of-type(which element you want to select, even or odd */
+ 
+  div:nth-of-type(n){
+       background-color :rgb(232, 202, 202);
+  }
+
+
+/* Pseudo Elements */
+
+h1::first-letter{
+    color : black;
+}
+p::first-line{
+    color : green;
+}
+p::selection{
+   background-color:brown;
+}
+
+ 
