@@ -1,0 +1,15 @@
+div{
+    background-color : yellow;
+}
+form{
+    background-color : red;
+}
+
+/* the input and button will not inher that properties for that we have to write this*/
+
+input{
+    background-color : inherit;
+}
+button{
+    background-color : inherit;
+}
