@@ -1,0 +1,33 @@
+.outer{
+    height : 400px;
+    width : 180px;
+    border : 2px solid black;
+    border-radius:  10px;
+    background-color:aqua;
+    padding-right:10px;
+
+}
+p{
+    text-align : center;
+    color : black;
+    font-family:Verdana;
+    text-decoration:overline;
+    text-decoration-color:red;
+    
+}
+.inner{
+    height : 50px;
+    width : 50px;
+    border : 2px solid black ;
+    margin : 10px;
+    border-radius : 50px;
+}
+#first{
+    background-color: red;
+}
+#second{
+    background-color :pink;
+}
+#third{
+    background-color: green;
+}
