@@ -1,0 +1,35 @@
+div{
+    height : 100px;
+    width : 100px;
+    margin : 10px ;
+}
+div:nth-of-type(1n){
+    background-color: rgb(163, 84, 84);
+}
+div:nth-of-type(2n){
+    background-color: rgb(81, 138, 81);
+}
+div:nth-of-type(3n){
+    background-color:rgb(106, 77, 134);
+}
+#first:hover{
+    transform:rotate(45deg);
+    background-color: rgb(109, 13, 13,0.5);
+
+}
+#second:hover{
+    transform : scale(0.5)
+}
+#third:hover{
+    transform : translate(-50px);
+}
+#fourth{
+    transform : skew(60deg);
+}
+#fifth{
+    transform: rotate(30deg) translateX(150px);
+}
+#box{
+    margin: 0px auto;
+    box-shadow:4px 4px 10px black;
+}
