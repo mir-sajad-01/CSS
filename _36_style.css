@@ -1,0 +1,10 @@
+*{
+    margin : 0px auto;
+}
+div{
+    height : 400px;
+    width : 600px;
+    background-color: pink;
+    background-image : url("img.jpg");
+    background-size : cover;
+}
