@@ -1,0 +1,30 @@
+#circle{
+    height : 150px;
+    width: 150px;
+    background-color:rgb(243, 162, 42);
+    margin:20px;
+    border-radius: 50%;
+}
+#semic1 , #semic2{
+    height : 14px;
+    width:14px;
+    background-color:black;
+    position: absolute;
+    top : 36px;
+    left : 40px;
+    display : inline-block;
+    border-radius:50%;
+    
+}
+#semic2{
+    left : 86px;
+}
+#mouth{
+    height: 28px;
+    width: 74px;
+    background-color: rgb(147, 59, 59);
+    border-radius: 0 0 56% 56%;
+    position: absolute;
+    top: 71px;
+    left: 41px;
+}
