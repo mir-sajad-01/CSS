@@ -1,0 +1,40 @@
+.box{
+    height : 300px;
+    width : 200px;
+    color :pink;
+    border: 2px solid black;
+    animation-name : colanimation;
+    animation-duration : 10s;
+    animation-timing-function : ease-out;
+    animation-delay : 0s;
+    animation-iteration-count : 3;
+    animation-direction: normal;
+/* 
+    animation : fontanimation 2s linear 3s infinite normal ; */
+}
+@keyframes fontanimation{
+    from{font-size : 20px;}
+    to{font-size : 40px;
+    border-radius : 18px;}
+}
+@keyframes coloranimation{
+    from{color : rgb(231, 153, 153);}
+    to {color : rgb(108, 214, 108);} 
+}
+@keyframes colanimation{
+    0% {
+        background-color : red;
+    }
+    25%{
+        background-color : green;
+    }
+    50%{
+        background-color : yellow;
+    }
+    75%{
+        background-color:pink;
+    }
+    100%{
+        background-color: orange;
+    }
+}

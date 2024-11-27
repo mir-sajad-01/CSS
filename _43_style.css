@@ -1,0 +1,47 @@
+#container {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: grid;
+    /*
+    grid-template-rows: 40px 40px ;
+    grid-template-columns : auto auto auto ;*/
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    /* row-gap : 8px ; 
+    column-gap : 9px; */
+    /* grid-gap : 8px 9px; */
+    /* justify-items : start; */
+    /* align-items : end; */
+     place-items : start ;
+    
+
+}
+
+.item {
+    height : 50px;
+    width : 100px;
+    background-color: green;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.one {
+    /* grid-column-start:1;
+    grid-column-end : 3; */
+    /* grid-column : 1/5; */
+   /* grid-column: 1/span 3;*/
+   /* justify-self : end; */
+   /* align-self : end; */
+   place-self : end;
+   
+}
+
+/*.two {
+    /* grid-row-start : 1;
+    grid-row-end : 3; */
+    /* grid-row: 1/4; */
+    /*grid-row: 1 /span 2;*/
+
+
